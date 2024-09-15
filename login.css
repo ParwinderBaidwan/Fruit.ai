@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sakkal Majalla';
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+.login-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+.login-container h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+.login-container p {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 20px;
+}
+.login-container p a {
+    text-decoration: none;
+    color: #007bff;
+}
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+.login-container input[type="email"],
+.login-container input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 100%;
+}
+.password-container {
+    position: relative;
+}
+.password-container input[type="password"] {
+    padding-right: 40px;
+}
+.password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.login-container .remember-password {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.login-container .remember-password label {
+    font-size: 14px;
+    color: #666;
+}
+.login-container button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.login-container button:hover {
+    background-color: #0056b3;
+}
+.social-login {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+.social-login-icons {
+    margin-top: 10px;
+}
+.social-login-icons img {
+    width: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.fingerprint-login {
+    margin-top: 20px;
+}
+.fingerprint-login img {
+    width: 50px;
+    cursor: pointer;
+}

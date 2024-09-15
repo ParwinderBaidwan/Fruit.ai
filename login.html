@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <p>By signing in you are agreeing our <a href="#">Term and privacy policy</a></p>
+
+        <div>
+            <span>Login</span>
+            <span>Register</span>
+        </div>
+        <form>
+            <input type="email" placeholder="Email Address" required>
+            
+            <div class="password-container">
+                <input type="password" placeholder="Password" id="password" required>
+                <span class="password-toggle" onclick="togglePasswordVisibility()">👁️</span>
+            </div>
+
+            <div class="remember-password">
+                <label>
+                    <input type="checkbox"> Remember password
+                </label>
+                <a href="#">Forget password</a>
+            </div>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <div class="social-login">
+            or connect with
+        </div>
+        <div class="social-login-icons">
+            <img src="../images/facebook.svg" alt="Facebook">
+            <img src="../images/instagram.svg" alt="Instagram">
+            <img src="../images/pinterest.svg" alt="Pinterest">
+            <img src="../images/linkedin.svg" alt="LinkedIn">
+        </div>
+
+        <div class="fingerprint-login">
+            <img src="../images/fingerprint.svg" alt="Fingerprint">
+        </div>
+    </div>
+
+    <script>
+        function togglePasswordVisibility() {
+            var passwordInput = document.getElementById("password");
+            if (passwordInput.type === "password") {
+                passwordInput.type = "text";
+            } else {
+                passwordInput.type = "password";
+            }
+        }
+    </script>
+</body>
+</html>

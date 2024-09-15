@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Interface</title>
+    <link rel="stylesheet" href="chatPage.css">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Header -->
+        <div class="chat-header">
+            <div class="user-info">
+                <img src="https://via.placeholder.com/40" alt="User Image" class="user-img">
+                <div>
+                    <h3>John Doe</h3>
+                    <p class="online-status">Online</p>
+                </div>
+            </div>
+            <div class="more-options">•••</div>
+        </div>
+
+        <!-- Chat Messages -->
+        <div class="chat-body">
+            <div class="date-divider">24 October, Sunday</div>
+            
+            <!-- Received Message -->
+            <div class="message received">
+                <p>This is a sample big message with a longer text paragraph</p>
+                <span class="time">10:30 AM</span>
+            </div>
+
+            <!-- Sent Message -->
+            <div class="message sent">
+                <p>This is a sample big message with a longer text paragraph</p>
+                <span class="time">10:30 AM</span>
+            </div>
+
+            <!-- Audio Message (Received) -->
+            <div class="message received audio-message">
+                <div class="audio-play">
+                    <i class="fa fa-play"></i>
+                </div>
+                <span class="time">10:30 AM</span>
+            </div>
+
+            <!-- Audio Message (Sent) -->
+            <div class="message sent audio-message">
+                <div class="audio-play">
+                    <i class="fa fa-play"></i>
+                </div>
+                <span class="time">10:30 AM</span>
+            </div>
+
+            <!-- Received Message -->
+            <div class="message received">
+                <p>This is a sample message for a chat</p>
+                <span class="time">10:30 AM</span>
+            </div>
+
+            <!-- Sent Message -->
+            <div class="message sent">
+                <p>This is a sample message for a chat</p>
+                <span class="time">10:30 AM</span>
+            </div>
+        </div>
+
+        <!-- Chat Input -->
+        <div class="chat-input">
+            <input type="text" placeholder="Message..." />
+            <button class="send-button">
+                <i class="fa fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- FontAwesome for Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>

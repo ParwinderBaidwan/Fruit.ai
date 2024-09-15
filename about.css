@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.gradient-background {
+    background: linear-gradient(to bottom right, #FF6FD8, #381CE2);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #000;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+}
+
+.about-btn {
+    display: block;
+    width: max-content;
+    padding: 10px 20px;
+    margin: 20px auto 0;
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
